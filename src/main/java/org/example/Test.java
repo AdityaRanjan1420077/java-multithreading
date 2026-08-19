@@ -13,8 +13,9 @@ public class Test {
         //I have to run the thread present in the World class
 //        1. Create the object of the World class
 //        2. call the start method of the object
-        World world = new World();
-        world.start();
+        World world = new World();  //NEW STATE
+        world.start(); //RUNNABLE
+        System.out.println(Thread.currentThread().getName());
 
 
 //        System.out.println("Infinite Loop");
