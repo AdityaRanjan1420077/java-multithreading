@@ -45,7 +45,7 @@ public class SynchronizationDemo {
         System.out.println("Final Count: " + counter.getCount());
 
 
-//                      SynchronizedCounter
+//              SynchronizedCounter
 //                     │
 //                count = 0
 //                     │
