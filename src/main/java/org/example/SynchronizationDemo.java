@@ -4,6 +4,21 @@ public class SynchronizationDemo {
 
     public static void main(String[] args) throws InterruptedException {
 
+
+        //Real Life Example
+//              Bank Account
+//             Balance ₹10,000
+//                  │
+//          ┌───────┴───────┐
+//          ↓               ↓
+//       ATM 1             ATM 2
+//     Withdraw          Withdraw
+//      ₹7,000             ₹7,000
+//        Balance = ₹10,000
+//        Both think:
+//
+//"There is enough money."
+
         // Create one shared SynchronizedCounter object.
         //
         // Both threads will access this SAME object.
