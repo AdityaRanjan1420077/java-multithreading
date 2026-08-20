@@ -1,4 +1,4 @@
-package org.example.locks;
+package org.example.locks.printer;
 
 public class PrinterDemo {
 
