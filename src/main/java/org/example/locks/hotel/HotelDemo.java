@@ -5,7 +5,7 @@ public class HotelDemo {
     public static void main(String[] args) throws InterruptedException {
 
         // One hotel with one available room.
-        org.example.Hotel hotel = new org.example.Hotel();
+        Hotel hotel = new Hotel(;
 
         // Customer 1 tries to book the room.
         Thread customer1 = new Thread(() -> {
